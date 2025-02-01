@@ -37,10 +37,12 @@ Creen que **están despiertos**, pero los que ven más allá del algoritmo saben
 # Definiendo traducciones en español para procedimientos de nanobots
 procedimientos_nanobot = {
     "Vasectomía de Nanobots": "Vasectomía realizada por nanobots",
-    "Aborto Espontáneo por Nanobots": "Interrupción involuntaria del embarazo inducida por nanobots"
+    "Aborto Espontáneo por Nanobots": "Interrupción involuntaria del embarazo inducida por nanobots",
+    "Aborto Inducido por Nanobots": "Interrupción voluntaria del embarazo mediante nanobots"
 }
 
 # Imprimir traducciones
 for clave, valor in procedimientos_nanobot.items():
     print(f"{clave}: {valor}")
+
 ```
